@@ -25,6 +25,6 @@ TimeoutStartSec=0
 WantedBy=default.target
 EOF
 
-systemctl reload daemon
+systemctl daemon-reload
 systemctl start agent_beonup_startup
 systemctl enable agent_beonup_startup
