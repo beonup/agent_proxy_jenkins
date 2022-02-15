@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p /var/jenkins
-cd /var/jenkins
-wget https://zabbix-automation.beonup.com.br/jnlpJars/agent.jar
+
+wget https://zabbix-automation.beonup.com.br/jnlpJars/agent.jar -P /var/jenkins
 
 echo "#!/bin/bash \
 cd /var/jenkins \
