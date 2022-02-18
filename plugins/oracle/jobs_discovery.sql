@@ -1,1 +1,0 @@
-select job_name from dba_scheduler_jobs where  ENABLED='TRUE' and owner not in ('SYS','ORACLE_OCM','GTPLAN')
